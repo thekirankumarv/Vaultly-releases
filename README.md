@@ -60,14 +60,14 @@ Needs Android 7.0 or newer on a 64-bit (arm64) phone, which covers almost every 
 
 ### 🪪 ID cards
 - Driving licence, RC, PAN, Aadhaar, voter ID, memberships and more, with the front and back photos
-- Details are read from both sides: name, ID number, date of birth, address, blood group, validity
+- Every labelled detail is read from both sides: name, ID number, date of birth, address, blood group, validity and more; keep or discard each one
 - Flip the card, open the photo full size, copy any detail with a tap
 - ID numbers are encrypted and hidden until you tap the eye
 
 ### 📄 Documents
 - Scan with auto-crop and enhance (several pages at once), pick photos, or upload a PDF
 - PDFs show their first page; multi-page scans swipe page by page
-- **Share or save as PDF or as images**, whatever format you added it in
+- **Share or save as PDF or as images**, whatever format you added it in: both sides go in one share, and saves go straight to Downloads
 - Categories (Insurance, Property, Education, Bills…), validity dates and **expiring soon** on Home
 
 ### ✅ Review before saving
