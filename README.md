@@ -68,6 +68,7 @@ Needs Android 7.0 or newer on a 64-bit (arm64) phone, which covers almost every 
 ### 📄 Documents
 - Scan with auto-crop and enhance (several pages at once), pick photos, or upload a PDF
 - PDFs show their first page; multi-page scans swipe page by page
+- **Press and hold a page** for a round magnifier that follows your finger, so fine print is easy to read (photos and PDFs)
 - **Share or save as PDF or as images**, whatever format you added it in: both sides go in one share, and saves go straight to Downloads
 - Categories (Insurance, Property, Education, Bills…), validity dates and **expiring soon** on Home
 
@@ -81,12 +82,13 @@ Needs Android 7.0 or newer on a 64-bit (arm64) phone, which covers almost every 
 - Kept separate from yours everywhere; pick who an item belongs to when adding it
 
 ### 📤 Send to another Vaultly user
-- Send an ID card, document or pay card to someone far away: **⋯ → Send to Vaultly user**, then share the `.vaultly` file on WhatsApp, Telegram, email or Quick Share
+- Send an ID card, document or pay card to someone far away: **⋯ → Send to Vaultly user**, and the share sheet opens with the `.vaultly` file and a short message with the code and a link to get Vaultly, ready for WhatsApp, Telegram, email or Quick Share
 - They tap the file, open it with Vaultly and add it in one tap: to themselves, a family member, or a new person such as a friend
 - **Nothing is lost:** original images and PDFs, every detail and the validity date arrive exactly as saved
 - **Auto-delete:** never, 1 hour, 24 hours, 7 days, 30 days or a date you pick. A glowing countdown shows on the item; when time runs out it's removed from their phone, even if it comes back from a backup
-- Protected by an 8-character code you send separately (or no code, your choice). Pay cards go with the last 4 digits unless you choose the full number
-- Timed items can't be re-shared and screenshots are blocked
+- Protected by an 8-character code (or no code, your choice). Send it in the same message, or untick that and share it yourself. Pay cards go with the last 4 digits unless you choose the full number
+- **Share history** in Settings keeps the codes you sent for 24 hours (hidden until you tap), so you can copy one again
+- Timed items are view only: saving, sharing, copying and screenshots are all turned off
 
 ### ✨ Ask Vaultly
 - Tap the glowing orb and ask in plain words: *"mom's Aadhaar number"*, *"Nova credit card"*, *"what expires soon"*, *"list all documents"*
@@ -156,12 +158,14 @@ Needs Android 7.0 or newer on a 64-bit (arm64) phone, which covers almost every 
 ### Send to another Vaultly user
 <p>
   <img src="screenshots/33-send.png" width="200" alt="Send to Vaultly user" />
-  <img src="screenshots/34-send-code.png" width="200" alt="Code to open it" />
+  <img src="screenshots/34-send-code.png" width="200" alt="Sent with the code" />
   <img src="screenshots/35-receive.png" width="200" alt="Add shared item" />
   <img src="screenshots/36-shared-timer.png" width="200" alt="Auto-delete countdown" />
 </p>
 <p>
+  <img src="screenshots/38-share-history.png" width="200" alt="Share history" />
   <img src="screenshots/37-id-peek.png" width="200" alt="Press and hold an ID card to preview" />
+  <img src="screenshots/39-doc-magnifier.png" width="200" alt="Document magnifier" />
 </p>
 
 ### Dark theme
@@ -253,7 +257,7 @@ Yes. Add members in the **Family** tab. Their cards and documents stay separate 
 <details>
 <summary><b>Can I send a document to someone else who uses Vaultly?</b></summary>
 
-Yes. Open it, tap **⋯ → Send to Vaultly user**, choose when it should auto-delete and whether it needs a code, and send the file on any chat app. They open it with Vaultly (or **Settings → Receive shared item**), enter the code and pick who it belongs to. Images, PDFs and every detail arrive exactly as you saved them. There's no server, so a sent item can't be taken back, so choose an auto-delete time instead.
+Yes. Open it, tap **⋯ → Send to Vaultly user**, choose when it should auto-delete and whether it needs a code, and tap **Create and send**: the file and a short message with the code go out together on any chat app. Lost the code? **Settings → Share history** keeps it for 24 hours. They open it with Vaultly (or **Settings → Receive shared item**), enter the code and pick who it belongs to. Images, PDFs and every detail arrive exactly as you saved them. There's no server, so a sent item can't be taken back, so choose an auto-delete time instead.
 </details>
 
 <details>
