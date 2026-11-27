@@ -152,6 +152,7 @@ Needs Android 7.0 or newer on a 64-bit (arm64) phone, which covers almost every 
 <p>
   <img src="screenshots/20-document-pdf.png" width="200" alt="PDF document" />
   <img src="screenshots/11-settings.png" width="200" alt="Settings" />
+  <img src="screenshots/40-settings-backup.png" width="200" alt="Google Drive, updates and help" />
   <img src="screenshots/04-backup-chosen.png" width="200" alt="Backup folder chosen" />
 </p>
 
