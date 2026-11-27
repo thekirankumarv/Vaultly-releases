@@ -1,79 +1,9 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Privacy policy · Vaultly</title><meta name="description" content="What Vaultly stores, what it sends, how Google Drive backup works and how to delete your data."><link rel="stylesheet" href="style.css"></head>
+<title>Privacy policy · Vaultly</title>
+<link rel="canonical" href="https://getvaultly.vercel.app/privacy/">
+<meta http-equiv="refresh" content="0; url=https://getvaultly.vercel.app/privacy/">
+<link rel="stylesheet" href="style.css"></head>
 <body><main>
-<a class="kicker" href="index.html">← Vaultly</a>
-<h1>Privacy policy</h1>
-<p>Effective 16 November 2026</p>
-<p>Vaultly is a free cards and documents wallet for Android. This policy explains what data the app handles, where it goes, and how you can delete it. It applies to the Vaultly app and to this website.</p>
-
-<h2>Summary</h2>
-<ul>
-<li>No Vaultly account, no Vaultly server, no ads, no analytics, no tracking.</li>
-<li>Your cards and documents are stored on your phone and in backups you choose.</li>
-<li>The developer never receives, sells or shares your data.</li>
-</ul>
-
-<h2>Data stored on your phone</h2>
-<p>Cards, ID cards, documents (images and PDFs), extracted fields, family members, categories and app settings are stored in the app’s private storage on your phone. Card numbers, CVVs and fields marked secret are encrypted with AES-256 using a key kept in the phone’s secure storage. Payment card photos are never kept; only the virtual card you see is saved. Card screens block screenshots while numbers are shown.</p>
-
-<h2>Reading cards and documents</h2>
-<p>Payment cards are always read on your phone with on-device text recognition. Their numbers, CVV and other details are never sent anywhere.</p>
-<p>For documents and ID cards, you can optionally add your own Google Gemini API key for smarter reading:</p>
-<ul>
-<li><strong>Private AI (on by default):</strong> the text is read on your phone first, and numbers, dates, emails and names are replaced with placeholders before anything is sent. Gemini receives only that masked text, and the real values are put back on your phone.</li>
-<li><strong>Private AI off:</strong> the document images are sent directly from your phone to Google Gemini for best accuracy.</li>
-</ul>
-<p>Google processes these requests under its own terms and privacy policy. Nothing is sent if you don’t add a key.</p>
-
-<h2>Ask Vaultly</h2>
-<p>Questions are answered on your phone from your own items. Only if the app can’t understand a question and you have added a Gemini key, the question text is sent to Gemini along with item titles, field names and family member names, so it can work out what you meant. Field values, card numbers and documents are never sent, and the answer is still found on your phone.</p>
-
-<h2>App lock</h2>
-<p>App lock and revealing card numbers use Android’s own fingerprint, face and screen lock prompt. Your phone does the check and only tells Vaultly whether it succeeded; the app never sees or stores your fingerprint, face data or PIN.</p>
-
-<h2>Backups</h2>
-<p>Backups are encrypted with a passphrase you set. The passphrase is never stored or sent anywhere, and nobody, including the developer, can recover it.</p>
-<ul>
-<li><strong>Backup folder:</strong> if you choose a folder on your phone, encrypted backup files (your data and documents) are written to it after changes.</li>
-<li><strong>Android backup:</strong> if backup is turned on in your phone’s settings, Android may include the app’s data file and settings in your Google account backup. Documents and the encryption key are excluded.</li>
-<li><strong>Export file:</strong> a backup file is only sent where you choose in the share menu.</li>
-</ul>
-
-<h2>Google Drive backup and Google user data (optional)</h2>
-<p>If you tap Connect Google Drive, you sign in with Google and Vaultly requests one permission:</p>
-<ul>
-<li><code>https://www.googleapis.com/auth/drive.appdata</code>: see, create and delete Vaultly’s own files in a hidden app folder in your Google Drive. Vaultly cannot see, open or change any other file in your Drive.</li>
-</ul>
-<p><strong>How it is used:</strong> only to upload your encrypted Vaultly backup (data and document files) and to download it when you restore. Your Google account email and name are shown in the app so you know which account is connected.</p>
-<p><strong>Where it goes:</strong> the backup travels directly between your phone and Google Drive over HTTPS. It is encrypted before upload, is never sent to the developer or any other server, and the developer cannot access it.</p>
-<p><strong>Sharing:</strong> data from Google APIs is not shared with, transferred to or sold to anyone, is not used for advertising, and is not used to develop or train AI or machine learning models. No human reads it.</p>
-<p>Vaultly’s use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
-
-<h2>Sharing items</h2>
-<p>When you share a card or document, it goes only to the app you pick in the share menu. Payment cards are shared as text, with the number masked unless you choose otherwise, and never with the CVV.</p>
-<p><strong>Send to Vaultly user:</strong> the item, its files and its details are encrypted into a .vaultly file on your phone and go only to the app you pick in the share menu. With a code, the file can't be opened without it. Nothing passes through a Vaultly server. The receiving phone keeps the item until its auto-delete time (if you set one) or until they delete it; you can't remove it remotely. The codes you send are kept encrypted on your phone for 24 hours in Share history, then removed.</p>
-
-<h2>Keeping and deleting your data</h2>
-<ul>
-<li><strong>On your phone:</strong> data stays until you delete it in the app or uninstall the app.</li>
-<li><strong>Backup folder:</strong> delete the Vaultly backup files from that folder with any file manager.</li>
-<li><strong>Google Drive:</strong> tap Disconnect in Settings → Backup to stop uploads. To delete the backups stored in Drive, open Google Drive on the web → Settings → Manage apps → Vaultly → Options → Delete hidden app data. To remove Vaultly’s access, visit <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>.</li>
-<li><strong>Android backup:</strong> managed in your phone’s backup settings and your Google account.</li>
-</ul>
-
-<h2>Other network requests</h2>
-<p>The app checks GitHub for new versions and downloads updates from GitHub. These requests contain no personal data.</p>
-
-<h2>Security</h2>
-<p>All network traffic uses HTTPS. Sensitive values and all backups are encrypted. Because data lives on your device, keep your phone locked and your passphrase safe.</p>
-
-<h2>Children</h2>
-<p>Vaultly is not directed at children under 13 and does not knowingly collect their data.</p>
-
-<h2>Changes</h2>
-<p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
-
-<h2>Contact</h2>
-<p>Questions or deletion help: <a href="mailto:dev.buildmode@gmail.com">dev.buildmode@gmail.com</a></p>
+<p>The privacy policy has moved to <a href="https://getvaultly.vercel.app/privacy/">getvaultly.vercel.app/privacy</a>.</p>
 </main></body></html>

@@ -204,7 +204,7 @@ Pay cards and ID cards are always read on your phone. For other documents you ca
 - Gemini is used only if you add your own key, and with Private AI on it never sees your real names, numbers or dates.
 - Ask Vaultly answers on your phone; your values are never sent anywhere.
 - Backups are encrypted with your passphrase and go only where you choose. Google Drive backup uses a hidden Vaultly folder the app can't see beyond.
-- Full [privacy policy](https://thekirankumarv.github.io/Vaultly-releases/privacy.html).
+- Full [privacy policy](https://getvaultly.vercel.app/privacy/).
 
 ## Updates
 
