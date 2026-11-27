@@ -62,6 +62,7 @@ Needs Android 7.0 or newer on a 64-bit (arm64) phone, which covers almost every 
 - Driving licence, RC, PAN, Aadhaar, voter ID, memberships and more, with the front and back photos
 - Every labelled detail is read from both sides: name, ID number, date of birth, address, blood group, validity and more; keep or discard each one
 - Flip the card, open the photo full size, copy any detail with a tap
+- **Press and hold** an ID card in the list for a quick big preview of both sides
 - ID numbers are encrypted and hidden until you tap the eye
 
 ### 📄 Documents
@@ -79,9 +80,17 @@ Needs Android 7.0 or newer on a 64-bit (arm64) phone, which covers almost every 
 - Add parents, partner and kids, each with their own cards and documents
 - Kept separate from yours everywhere; pick who an item belongs to when adding it
 
+### 📤 Send to another Vaultly user
+- Send an ID card, document or pay card to someone far away: **⋯ → Send to Vaultly user**, then share the `.vaultly` file on WhatsApp, Telegram, email or Quick Share
+- They tap the file, open it with Vaultly and add it in one tap: to themselves, a family member, or a new person such as a friend
+- **Nothing is lost:** original images and PDFs, every detail and the validity date arrive exactly as saved
+- **Auto-delete:** never, 1 hour, 24 hours, 7 days, 30 days or a date you pick. A glowing countdown shows on the item; when time runs out it's removed from their phone, even if it comes back from a backup
+- Protected by an 8-character code you send separately (or no code, your choice). Pay cards go with the last 4 digits unless you choose the full number
+- Timed items can't be re-shared and screenshots are blocked
+
 ### ✨ Ask Vaultly
 - Tap the glowing orb and ask in plain words: *"mom's Aadhaar number"*, *"Nova credit card"*, *"what expires soon"*, *"list all documents"*
-- Answers come as cards you can open, copy or share
+- Answers come as cards you can open, copy or share; tap ↻ to start a fresh chat
 - Worked out **on your phone**; your numbers and documents are never sent anywhere
 
 ### 💾 Backup
@@ -142,6 +151,17 @@ Needs Android 7.0 or newer on a 64-bit (arm64) phone, which covers almost every 
   <img src="screenshots/20-document-pdf.png" width="200" alt="PDF document" />
   <img src="screenshots/11-settings.png" width="200" alt="Settings" />
   <img src="screenshots/04-backup-chosen.png" width="200" alt="Backup folder chosen" />
+</p>
+
+### Send to another Vaultly user
+<p>
+  <img src="screenshots/33-send.png" width="200" alt="Send to Vaultly user" />
+  <img src="screenshots/34-send-code.png" width="200" alt="Code to open it" />
+  <img src="screenshots/35-receive.png" width="200" alt="Add shared item" />
+  <img src="screenshots/36-shared-timer.png" width="200" alt="Auto-delete countdown" />
+</p>
+<p>
+  <img src="screenshots/37-id-peek.png" width="200" alt="Press and hold an ID card to preview" />
 </p>
 
 ### Dark theme
@@ -228,6 +248,12 @@ No. Pay card photos are only used to read the details and are then deleted; the 
 <summary><b>Can I keep my family's cards too?</b></summary>
 
 Yes. Add members in the **Family** tab. Their cards and documents stay separate from yours, and you can ask for them by name or relation: *"dad's PAN"*.
+</details>
+
+<details>
+<summary><b>Can I send a document to someone else who uses Vaultly?</b></summary>
+
+Yes. Open it, tap **⋯ → Send to Vaultly user**, choose when it should auto-delete and whether it needs a code, and send the file on any chat app. They open it with Vaultly (or **Settings → Receive shared item**), enter the code and pick who it belongs to. Images, PDFs and every detail arrive exactly as you saved them. There's no server, so a sent item can't be taken back, so choose an auto-delete time instead.
 </details>
 
 <details>
